@@ -1,0 +1,27 @@
+{
+  "name": "XKVAreaCombation",
+  "version": "0.1.0",
+  "summary": "A short description of XKVAreaCombation.",
+  "description": "XKVAreaCombation Demo",
+  "homepage": "https://github.com/fengmuge@yeah.net/XKVAreaCombation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fengmuge@yeah.net": "fengmuge@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/fengmuge@yeah.net/XKVAreaCombation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XKVAreaCombation/Classes/**/*",
+  "dependencies": {
+    "XKVNetworking": [
+      "~> 0.1.0"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+module Pods_XKVodoneDemo {
+  umbrella header "Pods-XKVodoneDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

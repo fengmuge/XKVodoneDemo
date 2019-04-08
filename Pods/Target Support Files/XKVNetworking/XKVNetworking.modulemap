@@ -1,0 +1,6 @@
+module XKVNetworking {
+  umbrella header "XKVNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

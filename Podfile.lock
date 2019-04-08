@@ -1,0 +1,22 @@
+PODS:
+  - XKVAreaCombation (0.1.0):
+    - XKVNetworking (~> 0.1.0)
+  - XKVNetworking (0.1.0)
+
+DEPENDENCIES:
+  - XKVAreaCombation (from `Combiation/XKVAreaCombation`)
+  - XKVNetworking (from `Lib/XKVNetworking`)
+
+EXTERNAL SOURCES:
+  XKVAreaCombation:
+    :path: Combiation/XKVAreaCombation
+  XKVNetworking:
+    :path: Lib/XKVNetworking
+
+SPEC CHECKSUMS:
+  XKVAreaCombation: a0d361f793fb2e2b1f98ac8282ce804fe711b466
+  XKVNetworking: b59f5265fc1b3d4bfd4aa5cb3a67168a58fd4f3d
+
+PODFILE CHECKSUM: 659eb04b6e20f0e521ca673dd1efbc2217f04c42
+
+COCOAPODS: 1.6.1

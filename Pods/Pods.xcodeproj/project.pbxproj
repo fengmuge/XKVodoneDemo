@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2593D05818680D2FC179E32961834996 /* XKVAreaCombation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49A89AD7F651C754B140E87320CBBE7 /* XKVAreaCombation-dummy.m */; };
+		324C98A54B33B0643688883160C1A764 /* XKVAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A31DD18246B00D7FE3FE5B8F98EAEC /* XKVAreaViewController.swift */; };
+		3717111696103480EF8DEAEB9DC619E5 /* Pods-XKVodoneDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F466D5828F3C836F38503743E60AEFD3 /* Pods-XKVodoneDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5260F17AE7B61C646CEBEEC1DCFBC66D /* XKVNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B069E0569A5E0E890677C991C852223 /* XKVNetworking-dummy.m */; };
+		5C270F33ED097A8C19EB91DFDEAF4691 /* XKVNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B93C1AC510B493CF789817267F6327 /* XKVNetworking-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE8B68DE3C8DF32CB59D3BB634EFA794 /* Pods-XKVodoneDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B93822B8196256861688CF7ABDFA1 /* Pods-XKVodoneDemo-dummy.m */; };
+		D9DFFD2B89AAC68825EC261BEF7DEBBD /* XKVNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8F5A3D47311C2E87DEA3410E494300 /* XKVNetworking.swift */; };
+		F42487676FD08DDAFC8EAAA728E61D8F /* XKVAreaCombation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C251914C1B0A86D301DB73370913312 /* XKVAreaCombation-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EDAD918A8B9EAF65E45EA7AE98FA34A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8947E502D4CD7FFA1A156DA9DD47B2D1;
+			remoteInfo = XKVNetworking;
+		};
+		89A6632451DC3E1E0E676999A8FE77B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8294D74F0E5382C89CE5E1C3E0750AD7;
+			remoteInfo = XKVAreaCombation;
+		};
+		A8E9D425F48656DC887C19ACDAA2F1B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8947E502D4CD7FFA1A156DA9DD47B2D1;
+			remoteInfo = XKVNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A31DD18246B00D7FE3FE5B8F98EAEC /* XKVAreaViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKVAreaViewController.swift; path = XKVAreaCombation/Classes/XKVAreaViewController.swift; sourceTree = "<group>"; };
+		05ED74F442223E16E86649514D129E70 /* XKVAreaCombation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKVAreaCombation.xcconfig; sourceTree = "<group>"; };
+		08531B49E5360D375A1EEF4F00DFAA7C /* XKVNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKVNetworking.xcconfig; sourceTree = "<group>"; };
+		0C251914C1B0A86D301DB73370913312 /* XKVAreaCombation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKVAreaCombation-umbrella.h"; sourceTree = "<group>"; };
+		14B93C1AC510B493CF789817267F6327 /* XKVNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKVNetworking-umbrella.h"; sourceTree = "<group>"; };
+		19119F706CB73B143C68962DF0ACA71C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		224AD7849956D7B903C37ED2C720A7D9 /* XKVNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKVNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D48001B672D69CA12D10F713A515845 /* Pods-XKVodoneDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKVodoneDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		65C8A178726DE08BC0CA9802108E7B5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		67962EFF1E5011DB3DA35839652A1208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C3B93822B8196256861688CF7ABDFA1 /* Pods-XKVodoneDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKVodoneDemo-dummy.m"; sourceTree = "<group>"; };
+		898EEDFE847988FCFDEC0951E9DF0618 /* Pods-XKVodoneDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKVodoneDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9A0E2D73FD65EF58F912A06B5FFAFE /* libXKVNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXKVNetworking.a; path = libXKVNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9702FFBA1593B7E454E6277FECEB576B /* XKVNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKVNetworking-prefix.pch"; sourceTree = "<group>"; };
+		9B069E0569A5E0E890677C991C852223 /* XKVNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKVNetworking-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF0B0B5D9453B466306357280B45201D /* XKVAreaCombation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKVAreaCombation-prefix.pch"; sourceTree = "<group>"; };
+		B49A89AD7F651C754B140E87320CBBE7 /* XKVAreaCombation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKVAreaCombation-dummy.m"; sourceTree = "<group>"; };
+		BB96F7B9B6208ACF5BC85F3FFEF13FF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BBC7E46C1C9DD0E9CD585847583C9128 /* XKVNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKVNetworking.modulemap; sourceTree = "<group>"; };
+		C3B3CA4EB07F8AE2DD1D3F04A9F7A26C /* Pods-XKVodoneDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKVodoneDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C537E5640574CADD24BB1184E766BFE6 /* XKVAreaCombation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKVAreaCombation.modulemap; sourceTree = "<group>"; };
+		C6FE2C95232AEB00E84FF4449C3938DA /* Pods-XKVodoneDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKVodoneDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF8F5A3D47311C2E87DEA3410E494300 /* XKVNetworking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKVNetworking.swift; path = XKVNetworking/Classes/XKVNetworking.swift; sourceTree = "<group>"; };
+		E0D459E89A3F0CDFC158BB480443318F /* Pods-XKVodoneDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKVodoneDemo.modulemap"; sourceTree = "<group>"; };
+		E73A40AAB813D0215D1E3FF033975FB0 /* libPods-XKVodoneDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XKVodoneDemo.a"; path = "libPods-XKVodoneDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09EC2CDDFE21A31E4DA5279D3EE5548 /* XKVAreaCombation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKVAreaCombation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F466D5828F3C836F38503743E60AEFD3 /* Pods-XKVodoneDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKVodoneDemo-umbrella.h"; sourceTree = "<group>"; };
+		FF103FB3681477D4BEF4ACB029218643 /* libXKVAreaCombation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXKVAreaCombation.a; path = libXKVAreaCombation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC8EFA147E22DEFD65A89FEDED8E3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD62C3953A76BBDD027307287541C7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EFADEB4FBFC452992CEDB68E662B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042C387F03877BAC74FF7A2575F82810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73A40AAB813D0215D1E3FF033975FB0 /* libPods-XKVodoneDemo.a */,
+				FF103FB3681477D4BEF4ACB029218643 /* libXKVAreaCombation.a */,
+				8C9A0E2D73FD65EF58F912A06B5FFAFE /* libXKVNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5B2572ED87074391C6D41A0D88BE24 /* XKVNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F5A3D47311C2E87DEA3410E494300 /* XKVNetworking.swift */,
+				726A3CBF6ACFE313CF61C55ADA6D368B /* Pod */,
+				A82CB88164EB603E9EE02D84EEA28F3D /* Support Files */,
+			);
+			name = XKVNetworking;
+			path = ../Lib/XKVNetworking;
+			sourceTree = "<group>";
+		};
+		237EFE6B7B548F5D77EDC07C151CEE75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C537E5640574CADD24BB1184E766BFE6 /* XKVAreaCombation.modulemap */,
+				05ED74F442223E16E86649514D129E70 /* XKVAreaCombation.xcconfig */,
+				B49A89AD7F651C754B140E87320CBBE7 /* XKVAreaCombation-dummy.m */,
+				AF0B0B5D9453B466306357280B45201D /* XKVAreaCombation-prefix.pch */,
+				0C251914C1B0A86D301DB73370913312 /* XKVAreaCombation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/XKVAreaCombation";
+			sourceTree = "<group>";
+		};
+		726A3CBF6ACFE313CF61C55ADA6D368B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB96F7B9B6208ACF5BC85F3FFEF13FF9 /* LICENSE */,
+				67962EFF1E5011DB3DA35839652A1208 /* README.md */,
+				224AD7849956D7B903C37ED2C720A7D9 /* XKVNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7477CEA6A049834BA07AAB489A157145 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C48AE802175A89367CDDAF605AA5EF4 /* Pods-XKVodoneDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C48AE802175A89367CDDAF605AA5EF4 /* Pods-XKVodoneDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E0D459E89A3F0CDFC158BB480443318F /* Pods-XKVodoneDemo.modulemap */,
+				C6FE2C95232AEB00E84FF4449C3938DA /* Pods-XKVodoneDemo-acknowledgements.markdown */,
+				2D48001B672D69CA12D10F713A515845 /* Pods-XKVodoneDemo-acknowledgements.plist */,
+				7C3B93822B8196256861688CF7ABDFA1 /* Pods-XKVodoneDemo-dummy.m */,
+				F466D5828F3C836F38503743E60AEFD3 /* Pods-XKVodoneDemo-umbrella.h */,
+				898EEDFE847988FCFDEC0951E9DF0618 /* Pods-XKVodoneDemo.debug.xcconfig */,
+				C3B3CA4EB07F8AE2DD1D3F04A9F7A26C /* Pods-XKVodoneDemo.release.xcconfig */,
+			);
+			name = "Pods-XKVodoneDemo";
+			path = "Target Support Files/Pods-XKVodoneDemo";
+			sourceTree = "<group>";
+		};
+		A82CB88164EB603E9EE02D84EEA28F3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC7E46C1C9DD0E9CD585847583C9128 /* XKVNetworking.modulemap */,
+				08531B49E5360D375A1EEF4F00DFAA7C /* XKVNetworking.xcconfig */,
+				9B069E0569A5E0E890677C991C852223 /* XKVNetworking-dummy.m */,
+				9702FFBA1593B7E454E6277FECEB576B /* XKVNetworking-prefix.pch */,
+				14B93C1AC510B493CF789817267F6327 /* XKVNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/XKVNetworking";
+			sourceTree = "<group>";
+		};
+		BC7C2ABFAE0047CB861B74342FCD65F0 /* XKVAreaCombation */ = {
+			isa = PBXGroup;
+			children = (
+				03A31DD18246B00D7FE3FE5B8F98EAEC /* XKVAreaViewController.swift */,
+				ECCA187CB2EFE4C71B01BD69C1BC7F83 /* Pod */,
+				237EFE6B7B548F5D77EDC07C151CEE75 /* Support Files */,
+			);
+			name = XKVAreaCombation;
+			path = ../Combiation/XKVAreaCombation;
+			sourceTree = "<group>";
+		};
+		C7EF91ED7DEF54A57ED728F0ED40B55C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7C2ABFAE0047CB861B74342FCD65F0 /* XKVAreaCombation */,
+				1F5B2572ED87074391C6D41A0D88BE24 /* XKVNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C7EF91ED7DEF54A57ED728F0ED40B55C /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				042C387F03877BAC74FF7A2575F82810 /* Products */,
+				7477CEA6A049834BA07AAB489A157145 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECCA187CB2EFE4C71B01BD69C1BC7F83 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19119F706CB73B143C68962DF0ACA71C /* LICENSE */,
+				65C8A178726DE08BC0CA9802108E7B5F /* README.md */,
+				F09EC2CDDFE21A31E4DA5279D3EE5548 /* XKVAreaCombation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A86F86F7408E2CAE871F88D1DCE1755 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C270F33ED097A8C19EB91DFDEAF4691 /* XKVNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC812AE670FBB6C4DFF8F737BFF97D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3717111696103480EF8DEAEB9DC619E5 /* Pods-XKVodoneDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58BE3051501EF2E7BBA0E37928CB9503 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42487676FD08DDAFC8EAAA728E61D8F /* XKVAreaCombation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8294D74F0E5382C89CE5E1C3E0750AD7 /* XKVAreaCombation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F6153D26849552A89AF54D2C29E712 /* Build configuration list for PBXNativeTarget "XKVAreaCombation" */;
+			buildPhases = (
+				58BE3051501EF2E7BBA0E37928CB9503 /* Headers */,
+				E4402560CE199E86E5AA120B73BCF7B4 /* Sources */,
+				D0EFADEB4FBFC452992CEDB68E662B5D /* Frameworks */,
+				45ECE846BB04DB36392620D0AD0E8181 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7556CDF2168E6907AA5D41B74F061B /* PBXTargetDependency */,
+			);
+			name = XKVAreaCombation;
+			productName = XKVAreaCombation;
+			productReference = FF103FB3681477D4BEF4ACB029218643 /* libXKVAreaCombation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8947E502D4CD7FFA1A156DA9DD47B2D1 /* XKVNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85169D0166E1F669BF76E5716E13923A /* Build configuration list for PBXNativeTarget "XKVNetworking" */;
+			buildPhases = (
+				3A86F86F7408E2CAE871F88D1DCE1755 /* Headers */,
+				2A3F9EF4D84E60339F04BDBE6BD17BCB /* Sources */,
+				2EC8EFA147E22DEFD65A89FEDED8E3A0 /* Frameworks */,
+				B8E18491489D188B0E7DA36F4133E260 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKVNetworking;
+			productName = XKVNetworking;
+			productReference = 8C9A0E2D73FD65EF58F912A06B5FFAFE /* libXKVNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE627C8B6EC585FAE30A8AB45FA649AF /* Pods-XKVodoneDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63202D5E195C975AEBDF5819E0D240A3 /* Build configuration list for PBXNativeTarget "Pods-XKVodoneDemo" */;
+			buildPhases = (
+				4CC812AE670FBB6C4DFF8F737BFF97D4 /* Headers */,
+				39A72FB6E775A627810ACA49DC31DBFD /* Sources */,
+				CD62C3953A76BBDD027307287541C7AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A706A9A92A1EF3E22724B29556975CF0 /* PBXTargetDependency */,
+				ABC1B63F3A4141A39CD3EE7363C2C099 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKVodoneDemo";
+			productName = "Pods-XKVodoneDemo";
+			productReference = E73A40AAB813D0215D1E3FF033975FB0 /* libPods-XKVodoneDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 042C387F03877BAC74FF7A2575F82810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE627C8B6EC585FAE30A8AB45FA649AF /* Pods-XKVodoneDemo */,
+				8294D74F0E5382C89CE5E1C3E0750AD7 /* XKVAreaCombation */,
+				8947E502D4CD7FFA1A156DA9DD47B2D1 /* XKVNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45ECE846BB04DB36392620D0AD0E8181 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/XKVAreaCombation/XKVAreaCombation.modulemap",
+				"${PODS_ROOT}/Headers/Public/XKVAreaCombation/XKVAreaCombation-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/XKVAreaCombation-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKVAreaCombation/XKVAreaCombation.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKVAreaCombation/XKVAreaCombation-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		B8E18491489D188B0E7DA36F4133E260 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/XKVNetworking/XKVNetworking.modulemap",
+				"${PODS_ROOT}/Headers/Public/XKVNetworking/XKVNetworking-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/XKVNetworking-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKVNetworking/XKVNetworking.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKVNetworking/XKVNetworking-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3F9EF4D84E60339F04BDBE6BD17BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260F17AE7B61C646CEBEEC1DCFBC66D /* XKVNetworking-dummy.m in Sources */,
+				D9DFFD2B89AAC68825EC261BEF7DEBBD /* XKVNetworking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A72FB6E775A627810ACA49DC31DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B68DE3C8DF32CB59D3BB634EFA794 /* Pods-XKVodoneDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4402560CE199E86E5AA120B73BCF7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2593D05818680D2FC179E32961834996 /* XKVAreaCombation-dummy.m in Sources */,
+				324C98A54B33B0643688883160C1A764 /* XKVAreaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A706A9A92A1EF3E22724B29556975CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKVAreaCombation;
+			target = 8294D74F0E5382C89CE5E1C3E0750AD7 /* XKVAreaCombation */;
+			targetProxy = 89A6632451DC3E1E0E676999A8FE77B2 /* PBXContainerItemProxy */;
+		};
+		ABC1B63F3A4141A39CD3EE7363C2C099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKVNetworking;
+			target = 8947E502D4CD7FFA1A156DA9DD47B2D1 /* XKVNetworking */;
+			targetProxy = A8E9D425F48656DC887C19ACDAA2F1B9 /* PBXContainerItemProxy */;
+		};
+		AD7556CDF2168E6907AA5D41B74F061B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKVNetworking;
+			target = 8947E502D4CD7FFA1A156DA9DD47B2D1 /* XKVNetworking */;
+			targetProxy = 5EDAD918A8B9EAF65E45EA7AE98FA34A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F7307413EB62B1BBEB1AFD9C4018414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B3CA4EB07F8AE2DD1D3F04A9F7A26C /* Pods-XKVodoneDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKVodoneDemo/Pods-XKVodoneDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30921DB4F0143DC5971D776DF0201D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08531B49E5360D375A1EEF4F00DFAA7C /* XKVNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKVNetworking/XKVNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/XKVNetworking/XKVNetworking.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKVNetworking;
+				PRODUCT_NAME = XKVNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3260730474577136048F424D24495D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05ED74F442223E16E86649514D129E70 /* XKVAreaCombation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKVAreaCombation/XKVAreaCombation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/XKVAreaCombation/XKVAreaCombation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKVAreaCombation;
+				PRODUCT_NAME = XKVAreaCombation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCCA6BF985D0484E9EEDDD29671E53B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05ED74F442223E16E86649514D129E70 /* XKVAreaCombation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKVAreaCombation/XKVAreaCombation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/XKVAreaCombation/XKVAreaCombation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKVAreaCombation;
+				PRODUCT_NAME = XKVAreaCombation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D095D1DB766EA518762F0F4FC49EB873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898EEDFE847988FCFDEC0951E9DF0618 /* Pods-XKVodoneDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKVodoneDemo/Pods-XKVodoneDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E734DD8EFC5EFD4E490A71C1E95A81BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08531B49E5360D375A1EEF4F00DFAA7C /* XKVNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKVNetworking/XKVNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/XKVNetworking/XKVNetworking.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKVNetworking;
+				PRODUCT_NAME = XKVNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63202D5E195C975AEBDF5819E0D240A3 /* Build configuration list for PBXNativeTarget "Pods-XKVodoneDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D095D1DB766EA518762F0F4FC49EB873 /* Debug */,
+				1F7307413EB62B1BBEB1AFD9C4018414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F6153D26849552A89AF54D2C29E712 /* Build configuration list for PBXNativeTarget "XKVAreaCombation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3260730474577136048F424D24495D7A /* Debug */,
+				CCCA6BF985D0484E9EEDDD29671E53B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85169D0166E1F669BF76E5716E13923A /* Build configuration list for PBXNativeTarget "XKVNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E734DD8EFC5EFD4E490A71C1E95A81BA /* Debug */,
+				30921DB4F0143DC5971D776DF0201D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
